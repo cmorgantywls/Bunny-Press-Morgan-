@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D721E5206BF9A50054972C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D721E4206BF9A50054972C /* AppDelegate.swift */; };
+		84D721E7206BF9A50054972C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D721E6206BF9A50054972C /* ViewController.swift */; };
+		84D721EA206BF9A50054972C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D721E8206BF9A50054972C /* Main.storyboard */; };
+		84D721EC206BF9A50054972C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D721EB206BF9A50054972C /* Assets.xcassets */; };
+		84D721EF206BF9A50054972C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D721ED206BF9A50054972C /* LaunchScreen.storyboard */; };
+		84D721FA206BF9A50054972C /* Bunny_Press__Morgan_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D721F9206BF9A50054972C /* Bunny_Press__Morgan_Tests.swift */; };
+		84D72205206BF9A50054972C /* Bunny_Press__Morgan_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D72204206BF9A50054972C /* Bunny_Press__Morgan_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D721F6206BF9A50054972C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D721D9206BF9A50054972C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D721E0206BF9A50054972C;
+			remoteInfo = "Bunny Press (Morgan)";
+		};
+		84D72201206BF9A50054972C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D721D9206BF9A50054972C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D721E0206BF9A50054972C;
+			remoteInfo = "Bunny Press (Morgan)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D721E1206BF9A50054972C /* Bunny Press (Morgan).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunny Press (Morgan).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D721E4206BF9A50054972C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D721E6206BF9A50054972C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D721E9206BF9A50054972C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D721EB206BF9A50054972C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D721EE206BF9A50054972C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D721F0206BF9A50054972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D721F5206BF9A50054972C /* Bunny Press (Morgan)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny Press (Morgan)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D721F9206BF9A50054972C /* Bunny_Press__Morgan_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_Press__Morgan_Tests.swift; sourceTree = "<group>"; };
+		84D721FB206BF9A50054972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D72200206BF9A50054972C /* Bunny Press (Morgan)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny Press (Morgan)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D72204206BF9A50054972C /* Bunny_Press__Morgan_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_Press__Morgan_UITests.swift; sourceTree = "<group>"; };
+		84D72206206BF9A50054972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D721DE206BF9A50054972C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D721F2206BF9A50054972C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D721FD206BF9A50054972C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D721D8206BF9A50054972C = {
+			isa = PBXGroup;
+			children = (
+				84D721E3206BF9A50054972C /* Bunny Press (Morgan) */,
+				84D721F8206BF9A50054972C /* Bunny Press (Morgan)Tests */,
+				84D72203206BF9A50054972C /* Bunny Press (Morgan)UITests */,
+				84D721E2206BF9A50054972C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D721E2206BF9A50054972C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D721E1206BF9A50054972C /* Bunny Press (Morgan).app */,
+				84D721F5206BF9A50054972C /* Bunny Press (Morgan)Tests.xctest */,
+				84D72200206BF9A50054972C /* Bunny Press (Morgan)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D721E3206BF9A50054972C /* Bunny Press (Morgan) */ = {
+			isa = PBXGroup;
+			children = (
+				84D721E4206BF9A50054972C /* AppDelegate.swift */,
+				84D721E6206BF9A50054972C /* ViewController.swift */,
+				84D721E8206BF9A50054972C /* Main.storyboard */,
+				84D721EB206BF9A50054972C /* Assets.xcassets */,
+				84D721ED206BF9A50054972C /* LaunchScreen.storyboard */,
+				84D721F0206BF9A50054972C /* Info.plist */,
+			);
+			path = "Bunny Press (Morgan)";
+			sourceTree = "<group>";
+		};
+		84D721F8206BF9A50054972C /* Bunny Press (Morgan)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84D721F9206BF9A50054972C /* Bunny_Press__Morgan_Tests.swift */,
+				84D721FB206BF9A50054972C /* Info.plist */,
+			);
+			path = "Bunny Press (Morgan)Tests";
+			sourceTree = "<group>";
+		};
+		84D72203206BF9A50054972C /* Bunny Press (Morgan)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D72204206BF9A50054972C /* Bunny_Press__Morgan_UITests.swift */,
+				84D72206206BF9A50054972C /* Info.plist */,
+			);
+			path = "Bunny Press (Morgan)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D721E0206BF9A50054972C /* Bunny Press (Morgan) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D72209206BF9A50054972C /* Build configuration list for PBXNativeTarget "Bunny Press (Morgan)" */;
+			buildPhases = (
+				84D721DD206BF9A50054972C /* Sources */,
+				84D721DE206BF9A50054972C /* Frameworks */,
+				84D721DF206BF9A50054972C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunny Press (Morgan)";
+			productName = "Bunny Press (Morgan)";
+			productReference = 84D721E1206BF9A50054972C /* Bunny Press (Morgan).app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D721F4206BF9A50054972C /* Bunny Press (Morgan)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D7220C206BF9A50054972C /* Build configuration list for PBXNativeTarget "Bunny Press (Morgan)Tests" */;
+			buildPhases = (
+				84D721F1206BF9A50054972C /* Sources */,
+				84D721F2206BF9A50054972C /* Frameworks */,
+				84D721F3206BF9A50054972C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D721F7206BF9A50054972C /* PBXTargetDependency */,
+			);
+			name = "Bunny Press (Morgan)Tests";
+			productName = "Bunny Press (Morgan)Tests";
+			productReference = 84D721F5206BF9A50054972C /* Bunny Press (Morgan)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D721FF206BF9A50054972C /* Bunny Press (Morgan)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D7220F206BF9A50054972C /* Build configuration list for PBXNativeTarget "Bunny Press (Morgan)UITests" */;
+			buildPhases = (
+				84D721FC206BF9A50054972C /* Sources */,
+				84D721FD206BF9A50054972C /* Frameworks */,
+				84D721FE206BF9A50054972C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D72202206BF9A50054972C /* PBXTargetDependency */,
+			);
+			name = "Bunny Press (Morgan)UITests";
+			productName = "Bunny Press (Morgan)UITests";
+			productReference = 84D72200206BF9A50054972C /* Bunny Press (Morgan)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D721D9206BF9A50054972C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CM;
+				TargetAttributes = {
+					84D721E0206BF9A50054972C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84D721F4206BF9A50054972C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84D721E0206BF9A50054972C;
+					};
+					84D721FF206BF9A50054972C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84D721E0206BF9A50054972C;
+					};
+				};
+			};
+			buildConfigurationList = 84D721DC206BF9A50054972C /* Build configuration list for PBXProject "Bunny Press (Morgan)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D721D8206BF9A50054972C;
+			productRefGroup = 84D721E2206BF9A50054972C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D721E0206BF9A50054972C /* Bunny Press (Morgan) */,
+				84D721F4206BF9A50054972C /* Bunny Press (Morgan)Tests */,
+				84D721FF206BF9A50054972C /* Bunny Press (Morgan)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D721DF206BF9A50054972C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D721EF206BF9A50054972C /* LaunchScreen.storyboard in Resources */,
+				84D721EC206BF9A50054972C /* Assets.xcassets in Resources */,
+				84D721EA206BF9A50054972C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D721F3206BF9A50054972C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D721FE206BF9A50054972C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D721DD206BF9A50054972C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D721E7206BF9A50054972C /* ViewController.swift in Sources */,
+				84D721E5206BF9A50054972C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D721F1206BF9A50054972C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D721FA206BF9A50054972C /* Bunny_Press__Morgan_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D721FC206BF9A50054972C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D72205206BF9A50054972C /* Bunny_Press__Morgan_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D721F7206BF9A50054972C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D721E0206BF9A50054972C /* Bunny Press (Morgan) */;
+			targetProxy = 84D721F6206BF9A50054972C /* PBXContainerItemProxy */;
+		};
+		84D72202206BF9A50054972C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D721E0206BF9A50054972C /* Bunny Press (Morgan) */;
+			targetProxy = 84D72201206BF9A50054972C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D721E8206BF9A50054972C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D721E9206BF9A50054972C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D721ED206BF9A50054972C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D721EE206BF9A50054972C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D72207206BF9A50054972C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D72208206BF9A50054972C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D7220A206BF9A50054972C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Press (Morgan)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Bunny-Press--Morgan-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D7220B206BF9A50054972C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Press (Morgan)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Bunny-Press--Morgan-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D7220D206BF9A50054972C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Press (Morgan)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Bunny-Press--Morgan-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Press (Morgan).app/Bunny Press (Morgan)";
+			};
+			name = Debug;
+		};
+		84D7220E206BF9A50054972C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Press (Morgan)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Bunny-Press--Morgan-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Press (Morgan).app/Bunny Press (Morgan)";
+			};
+			name = Release;
+		};
+		84D72210206BF9A50054972C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Press (Morgan)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Bunny-Press--Morgan-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bunny Press (Morgan)";
+			};
+			name = Debug;
+		};
+		84D72211206BF9A50054972C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bunny Press (Morgan)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Bunny-Press--Morgan-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bunny Press (Morgan)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D721DC206BF9A50054972C /* Build configuration list for PBXProject "Bunny Press (Morgan)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D72207206BF9A50054972C /* Debug */,
+				84D72208206BF9A50054972C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D72209206BF9A50054972C /* Build configuration list for PBXNativeTarget "Bunny Press (Morgan)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D7220A206BF9A50054972C /* Debug */,
+				84D7220B206BF9A50054972C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D7220C206BF9A50054972C /* Build configuration list for PBXNativeTarget "Bunny Press (Morgan)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D7220D206BF9A50054972C /* Debug */,
+				84D7220E206BF9A50054972C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D7220F206BF9A50054972C /* Build configuration list for PBXNativeTarget "Bunny Press (Morgan)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D72210206BF9A50054972C /* Debug */,
+				84D72211206BF9A50054972C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D721D9206BF9A50054972C /* Project object */;
+}
